@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos globales personalizados (opcional) */
+body {
+  @apply bg-base text-white font-sans;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+}
+
+a {
+  @apply text-primary hover:underline;
+}
